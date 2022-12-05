@@ -22,8 +22,6 @@ describe("POST /product", () => {
             .reply(200, {
                 "currency_pair": "USD_SEK",
                 "exchange_rate": 10
-            }, {
-                'Content-Type': 'application/json',
             })
     })
 
