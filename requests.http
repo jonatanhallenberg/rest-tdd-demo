@@ -1,0 +1,9 @@
+POST http://localhost:8081/products
+Content-Type: application/json
+
+{
+    "name": "Macbook Pro",
+    "description": "Great machine!",
+    "price": 800,
+    "currency": "USD"
+}
